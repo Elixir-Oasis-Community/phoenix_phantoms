@@ -124,12 +124,12 @@ This Phoenix app has been haunted by a bunch of noisy ghosts! Use the `<.sfx />`
 
 The following `sample`s are included out of the box:
 
-- [`sfx/crow.wav`](./priv/static/sfx/crow.wav)
-- [`sfx/scream.wav`](./priv/static/sfx/scream.wav)
-- [`sfx/thunder.wav`](./priv/static/sfx/thunder.wav)
-- [`sfx/witch.wav`](./priv/static/sfx/witch.wav)
-- [`sfx/wolf.mp3`](./priv/static/sfx/wolf.mp3)
-- [`sfx/zombie.wav`](./priv/static/sfx/zombie.wav)
+- `sfx/crow.wav`
+- `sfx/scream.wav`
+- `sfx/thunder.wav`
+- `sfx/witch.wav`
+- `sfx/wolf.mp3`
+- `sfx/zombie.wav`
 
 Add custom sounds by copying them into the `priv/static/sfx` directory of this repo.
 
