@@ -4,6 +4,8 @@ _Double, double toil and trouble; Phoenix burn, and cauldron bubble!_
 
 A spoooooooky boilerplate project for your Halloween-themed Phoenix app. Made by Elixir Oasis for our Halloween 2023 Code Jam. Happy Haunting!
 
+![screenshot](./guides/assets/images/screenshot.png)
+
 ## Installation
 
 Clone this repository, then to start your Phoenix server:
