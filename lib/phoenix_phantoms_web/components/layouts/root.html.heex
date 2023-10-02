@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="[scrollbar-gutter:stable]">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <.live_title suffix=" · Phoenix Framework">
+      <%= assigns[:page_title] || "PhoenixPhantoms" %>
+    </.live_title>
+    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+    <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}></script>
+    <style>
+      @font-face { font-family: CoralinesCat; src: url('fonts/coralines_cat/coralines_cat.otf'); }
+      @font-face { font-family: GhastlyPanic; src: url('fonts/ghastly_panic/ghastly_panic.ttf'); }
+      @font-face { font-family: Horrorcore; src: url('fonts/horrorcore/horrorcore.ttf'); }
+      @font-face { font-family: ItLivesInTheSwamp; src: url('fonts/it_lives_in_the_swamp/it_lives_in_the_swamp.ttf'); }
+      @font-face { font-family: Lycanthrope; src: url('fonts/lycanthrope/lycanthrope.ttf'); }
+      @font-face { font-family: RavenSong; src: url('fonts/raven_song/raven_song.ttf'); }
+      @font-face { font-family: Spiderfingers; src: url('fonts/spiderfingers/spiderfingers.ttf'); }
+      @font-face { font-family: SwampWitch; src: url('fonts/swamp_witch/swamp_witch.ttf'); }
+      @font-face { font-family: VampyrishABC; src: url('fonts/vampyrish_abc/vampyrish_abc.ttf'); }
+      @font-face { font-family: VintageHalloween; src: url('fonts/vintage_halloween/vintage_halloween.ttf'); }
+      @font-face { font-family: Witch; src: url('fonts/witch/witch.otf'); }
+      @font-face { font-family: Zombie; src: url('fonts/zombie/zombie.ttf'); }
+      @font-face { font-family: Zombified; src: url('fonts/zombified/zombified.ttf'); }
+    </style>
+  </head>
+  <body class="bg-[#18041A] text-orange-600 antialiased">
+    <%= @inner_content %>
+  </body>
+</html>
